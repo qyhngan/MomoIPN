@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MomoPayment.API", "MomoPayment\MomoPayment.API.csproj", "{2726D938-CF2D-4AA4-A742-387321AAB330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MomoPayment.Repositories", "MomoPayment.Repositories\MomoPayment.Repositories.csproj", "{83B97D6A-E9D5-4909-A7AB-0E088F123626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MomoPayment.Services", "MomoPayment.Services\MomoPayment.Services.csproj", "{A51334EF-E566-427C-90A2-9839040C7CEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2726D938-CF2D-4AA4-A742-387321AAB330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2726D938-CF2D-4AA4-A742-387321AAB330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2726D938-CF2D-4AA4-A742-387321AAB330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2726D938-CF2D-4AA4-A742-387321AAB330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B97D6A-E9D5-4909-A7AB-0E088F123626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B97D6A-E9D5-4909-A7AB-0E088F123626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B97D6A-E9D5-4909-A7AB-0E088F123626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B97D6A-E9D5-4909-A7AB-0E088F123626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51334EF-E566-427C-90A2-9839040C7CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51334EF-E566-427C-90A2-9839040C7CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51334EF-E566-427C-90A2-9839040C7CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51334EF-E566-427C-90A2-9839040C7CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF3E3EBF-A547-4260-9780-543BE6943A65}
+	EndGlobalSection
+EndGlobal
