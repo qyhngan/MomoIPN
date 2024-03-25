@@ -38,6 +38,19 @@ namespace Services.Services
                     var pointValue = callbackViaMomo.Amount;
                     Guid currentUserId = Guid.Parse(callbackViaMomo.ExtraData);
                     
+                    if (callbackViaMomo.Amount == 10000)
+                    {
+                        pointValue = 100;
+                    }
+                    else if (callbackViaMomo.Amount == 45000)
+                    {
+                        pointValue = 500;
+                    }
+                    else if (callbackViaMomo.Amount == 85000)
+                    {
+                        pointValue = 1000;
+                    }
+
                     var transaction = new Transaction()
                     {
                         UserId = currentUserId,
